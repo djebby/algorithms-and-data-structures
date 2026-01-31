@@ -18,4 +18,10 @@ python_style_guides = {
 }
 ```
 
-### it's always nice to write a clean and understandable code. :stuck_out_tongue_winking_eye:
+### it's always nice to write a clean and understandable code.
+
+
+docker run command for a postgresql database
+```sh
+  docker run -d --name postgres-leetcode -e POSTGRES_DB=leetcode -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -v postgres_leetcode_data:/var/lib/postgresql/data -p 5432:5432 postgres:18.1
+```
