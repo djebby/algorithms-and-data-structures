@@ -16,5 +16,4 @@ class Solution:
             else:
                 l = m + 1
         
-        return letters[r] # letters[r] == letters[l] since by this point l = r
-            
+        return letters[r] # letters[r] == letters[l] since after the while loop (l) should be equal to (r)
